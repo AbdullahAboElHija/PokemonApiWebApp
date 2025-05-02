@@ -1,0 +1,8 @@
+.CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* center the cards */
+    gap: 20px; /* space between cards */
+    padding: 0 40px; /* space from left and right */
+  }
+  
