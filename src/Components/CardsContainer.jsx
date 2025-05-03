@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import "../Styles/CardsContainer.css";
 
 export default function CardsContainer() {
+  
   const [pokemonList, setPokemonList] = useState([]);
   const LIMIT = 5;
   const [OFFSET, setOFFSET] = useState(0);
